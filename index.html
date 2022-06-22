@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="drawing.js"></script>
+    <script src="upload.js"></script>
+    <script src="sidebar.js"></script>
+  </head>
+    <body onload="init()">
+      <div class="background">
+     
+      
+       <button class="openbtn2" onclick="openNavSize()">&#8226;</button>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        
+        <button class="savB" onclick="save()">&#11181;</button>
+        <button class="clrB" onclick="erase()">&#9746;</button>
+        
+       
+      <div id="main">
+      
+      
+        <canvas id="can" width="530" height="350" 
+        style="margin-top:30px;"></canvas>
+
+        <div id="mySidebar1" class="sidebar1">
+
+        <div class="size1" id="s1" onclick="size(this)"></div>
+        <div class="size2" id="s2" onclick="size(this)"></div>
+        <div class="size5" id="s5" onclick="size(this)"></div>
+        <div class="size10" id="s10" onclick="size(this)"></div>  
+        
+       
+        
+        
+          
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNavSize()">&times;</a>
+        
+        </div>
+
+        <div id="mySidebar" class="sidebar">
+
+       
+        <div class="cViolet" id="violet" onclick="color(this)"></div>
+        <div class="cDBlue" id="darkBlue" onclick="color(this)"></div>
+        <div class="cLBlue" id="lightBlue" onclick="color(this)"></div>
+        <div class="cGreen" id="green" onclick="color(this)"></div>
+        <div class="cLime" id="lime" onclick="color(this)"></div>
+        <div class="cYellow" id="yellow" onclick="color(this)"></div>
+        <div class="cOrange" id="orange" onclick="color(this)"></div>
+        <div class="cRed" id="red" onclick="color(this)"></div>
+        <div class="cBrown" id="brown" onclick="color(this)"></div>
+        <div class="cLGrey" id="lightGrey" onclick="color(this)"></div>
+        <div class="cDGrey" id="darkGrey" onclick="color(this)"></div>
+        <div class="cBlack" id="black" onclick="color(this)"></div>
+        
+        <div class="eraser" id="white" onclick="color(this)"></div>
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <img id="canvasimg" class="can_mirror" />
+        
+
+      </div>
+        
+    </div>
+    </div>
+
+    </body>
+    </html>
+

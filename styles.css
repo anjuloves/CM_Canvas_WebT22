@@ -1,0 +1,336 @@
+.cLBlue {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#03A9F4 ;
+}
+
+.cDBlue {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#0D47A1 ;
+}
+
+.cViolet {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:20px;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#9C27B0;
+}
+
+.cRed {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#B71C1C;
+}
+
+.cGreen {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#4CAF50;
+}
+
+.cLime {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#CDDC39;
+}
+
+.cYellow {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#FFEB3B;
+}
+
+.cOrange {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#FF9800;
+}
+
+.cBrown {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#795548 ;
+}
+
+.cLGrey {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#BDC3C7;
+}
+
+.cDGrey {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#707B7C ;
+}
+
+.cBlack {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#000000;
+}
+
+.eraser {
+  height: 18px;
+  width: 18px;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+  margin-bottom:5px;
+  margin-left:5px;
+  background:white;
+}
+
+
+button {
+  border: none;
+  background-color: #fff;
+}
+
+
+/* The sidebar menu */
+.sidebar {
+
+  height: 350px; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 45px;
+  left: 0;
+  background-color: none; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden; /* Disable horizontal scroll */
+  
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: -20px;
+  right:-2px;
+  font-size: 32px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  border: none;
+  left:510px;
+  top:40px;
+}
+
+/* The sidebar menu */
+.sidebar1 {
+
+  height: 350px; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 75px;
+  left: 0;
+  background-color: none; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden; /* Disable horizontal scroll */
+  
+  transition: top 0.5s ease-in;
+}
+
+/* The sidebar links */
+.sidebar1 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar1 a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar1 .closebtn {
+  position: absolute;
+  top: 67px;
+  right:-2px;
+  font-size: 32px;
+}
+
+/* The button used to open the sidebar */
+.openbtn2 {
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  border: none;
+  left:511px;
+  top:50px;
+  font-size:30px;
+}
+
+.size1 {
+  align-self :center;
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:3px;
+  margin-bottom:5px;
+  margin-left:11px;
+  background:#000 ;
+}
+
+.size2 {
+  align-self :center;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  
+  margin-bottom:7px;
+  margin-left:9px;
+  background:#000 ;
+}
+
+.size5 {
+  height: 16px;
+  width: 16px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+  margin-bottom:6px;
+  margin-left:7px;
+  background:#000 ;
+}
+
+.size10 {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+ 
+  margin-bottom:5px;
+  margin-left:5px;
+  background:#000 ;
+}
+
+.clrB {
+  font-size:16px;
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  border: none;
+  left:509px;
+  top:361px;
+}
+
+.savB {
+  font-size:24px;
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  border: none;
+  left:509px;
+  top:330px;
+}
+
+
+.background {
+  background-image: url('https://i.imgur.com/GeNO9d9.png');
+  width: 534px;
+  height: 384px;
+  display: block;
+}
+
+body { background-color: #E3E3E3;
+}
+
+.can_mirror {
+  top:600;
+}
+
