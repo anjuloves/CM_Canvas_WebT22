@@ -1,25 +1,25 @@
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-function openNav() {
-  document.getElementById("mySidebar").style.width = "30px";
-  document.getElementById("mySidebar").style.marginLeft = "540px";
+//Öffnen der SidebarColor rechts neben dem Canvas
+function openNavColor() {
+  document.getElementById("sidebarColor").style.width = "30px";
+  document.getElementById("sidebarColor").style.marginLeft = "540px";
   document.getElementById("main").style.marginLeft = "0px";
-
 }
 
+//Öffnen der SidebarSize unterhalb des Anzeige-Buttons
 function openNavSize() {
-  document.getElementById("mySidebar1").style.width = "30px";
-  document.getElementById("mySidebar1").style.marginLeft = "508px";
+  document.getElementById("sidebarSize").style.width = "30px";
+  document.getElementById("sidebarSize").style.marginLeft = "508px";
   document.getElementById("main").style.marginLeft = "0px";
-
 }
 
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
+//Schließen der SidebarColor
+function closeNavColor() {
+  document.getElementById("sidebarColor").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
 
+//Schließen der SidebarSize
 function closeNavSize() {
-  document.getElementById("mySidebar1").style.width = "0";
+  document.getElementById("sidebarSize").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
