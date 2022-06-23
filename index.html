@@ -7,7 +7,7 @@
     <script src="/JavaScript/saveAsImage.js"></script>
     <script src="/JavaScript/sidebar.js"></script>
     <script src="/JavaScript/update.js"></script>
-    <script src="/JavaScript/choosePic.js"></script>
+    
   </head>
 
   <!--Initialisierung-->
@@ -67,19 +67,13 @@
         </div>
       </div><!--Ende Main-->
     </div><!--Ende Background-->
-
-    
-    <label for="number">Choose a number</label><br>
-      <input id="number" type="number" min="1" max="671" />
-
-      <figure>
-
-        <img id="avatar" src="" alt="" />
-        <figcaption id="imageDescription"></figcaption>
-
-      </figure>
-
-
+     
+    <!--API-Buttons zur Generierung von Bildern-->  
+    <button id="deleteAM" class="deleteBAM" onclick="deleteAM()">X</button>
+    <button id="genAM" class="genAM" onclick="generateAM()">Generate a Character</button>
+    <figure><img id="avaAM" src="" alt=""/></figure>
 
   </body>
+  <!--Diese Scripte müssen unter den Body um Error zu verhindern-->
+  <script src="/JavaScript/generateAM.js"></script>
 </html>

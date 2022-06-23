@@ -18,9 +18,8 @@ body { background-color: #E3E3E3; /*Für bessere Sichtbarkeit der Anwendung*/
 /*Darstellung der Canvas-Kopie*/
 .canvasMirror {
   position:absolute;
-  top:398px;
+  top:418px;
   left:8px; 
-  z-index:10;
   display:none;
 }
 
@@ -58,6 +57,38 @@ button {
   border: none;
   left:509px;
   top:361px;
+}
+
+.genAM {
+  font-size:12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(211, 211, 211);
+  border-left: none;
+  left:31px;
+  top:395px;
+}
+
+.deleteBAM {
+  font-size:12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(211, 211, 211);
+  left:10px;
+  top:395px;
+}
+
+/*Darstellung der generierten API-Elemente*/
+figure {
+  position: absolute;
+  top:25px;
+  left:530px;
 }
 
 /* Sidebar-Menü für die Farbauswahl */
