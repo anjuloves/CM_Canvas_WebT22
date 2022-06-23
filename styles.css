@@ -30,6 +30,16 @@ button {
   background-color: #fff; /*Hintergrundfarbe an den Canvas-Background angepasst*/
 }
 
+.updateB {
+  font-size:24px;
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  border: none;
+  left:509px;
+  top:302px;
+}
+
 .saveB {
   font-size:24px;
   position: absolute;
@@ -245,7 +255,7 @@ button {
 
 /* Sidebar-Menü für die Pinselgröße */
 .sidebarSize {
-  height: 100px; 
+  height: 110px; 
   width: 0; /* Änderung über JS */
   position: absolute; 
   z-index: 1; 
@@ -286,7 +296,7 @@ button {
 /* Position des Close-Buttons */
 .sidebarSize .closebtnSize {
   position: absolute;
-  top: 67px;
+  top: 70px;
   right:-2px;
   font-size: 32px;
 }
