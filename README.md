@@ -7,8 +7,3 @@ Die unterschiedlichen Skripte befindet sich in einem gemeinsamen Ordner. Dabei s
 Teile der JS-Skripte sind im Head verlinkt, während andere Teile unterhalb des Body definiert wurden um Konflikte mit DOM-Elementen zu verhindern.
 
 TODOs befindet sich verteilt auf den Dokumenten immer in den ersten Zeilen. 
-
-Unfertige Skripte: 
--- update.js 
--- generatePP.js
--- saveAsImage.js
