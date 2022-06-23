@@ -59,6 +59,19 @@ button {
   top:361px;
 }
 
+.genName {
+  font-size:12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(211, 211, 211);
+  border-left: none;
+  left:231px;
+  top:395px;
+}
+
 .genAM {
   font-size:12px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
